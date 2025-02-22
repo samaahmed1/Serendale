@@ -1,4 +1,3 @@
-import heroImage from "../assets/images/avatar.webp";
 function Hero() {
   return (
     <section className="hero pt-19 md:pt-20">
@@ -23,8 +22,8 @@ function Hero() {
             </a>
           </div>
         </div>
-        <div className="col image-hover">
-          <img src={heroImage} alt="avatar" />
+        <div className="col image-animation">
+          <img src="/images/avatar.webp" alt="avatar" />
         </div>
       </div>
     </section>
