@@ -1,3 +1,4 @@
+import { Link } from "react-router";
 function Hero() {
   return (
     <section className="hero pt-19 md:pt-20">
@@ -12,11 +13,11 @@ function Hero() {
             AI-based data security. Proof of Stake, its consensus algorithm enables <br /> unlimited speeds.
           </p>
           <div className="action mx-auto inline-block mb-5 md:mb-0">
-            <a href="index.html" className="relative inline-block p-[2px] rounded-full bg-gradient-to-r from-purple-500 via-[#ECBFBF] to-pink-500">
-              <span className="flex h-full w-full items-center justify-center p-3 md:py-3 md:px-6 text-white bg-gray-900 rounded-full hover:bg-gradient-to-r from-purple-500 via-[#ECBFBF] to-pink-500">
+            <Link to="/LogIn" className="relative inline-block p-[2px] rounded-full bg-gradient-to-r from-purple-500 via-[#ECBFBF] to-pink-500">
+            <span className="flex h-full w-full items-center justify-center p-3 md:py-3 md:px-6 text-white bg-gray-900 rounded-full hover:bg-gradient-to-r from-purple-500 via-[#ECBFBF] to-pink-500">
                 Get Started
               </span>
-            </a>
+            </Link>
             <a className="ml-5 border-2 p-3 md:py-3 md:px-6 rounded-full text-center" href="index.html">
               Ecosystems
             </a>
