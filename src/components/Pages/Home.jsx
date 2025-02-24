@@ -1,5 +1,5 @@
 import { Link } from "react-router";
-function Hero() {
+function Home() {
   return (
     <section className="hero pt-19 md:pt-20">
       <div className="container mx-auto px-5 flex flex-col justify-center items-center text-center">
@@ -30,4 +30,4 @@ function Hero() {
     </section>
   );
 }
-export default Hero;
+export default Home;

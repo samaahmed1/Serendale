@@ -1,9 +1,10 @@
-import Hero from "./components/Hero";
+
+import Home from "./components/Pages/Home";
 
 function App() {
   return (
     <>
-      <Hero/>
+      <Home/>
     </>
   );
 }

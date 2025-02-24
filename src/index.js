@@ -2,8 +2,8 @@ import "./index.css";
 import App from "./App";
 import React from "react";
 import ReactDOM from "react-dom/client";
-import LogIn from "./components/LogIn";
-import Welcome from "./components/Welcome";
+import LogIn from "./components/Pages/LogIn";
+import Welcome from "./components/Pages/Welcome";
 import Header from "./components/layouts/Header";
 import { BrowserRouter, Route, Routes } from "react-router";
 
